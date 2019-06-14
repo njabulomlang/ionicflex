@@ -1,3 +1,103 @@
 page-home {
+    ion-content{
+        .flex-container{
 
+        }
+        .flex-container0 {
+            display: flex;
+            align-items: stretch;
+           background-color: rgb(108, 118, 148);
+            background-size: cover;
+            height: 6vh;
+          }
+          
+          .flex-container0> div {
+            background-color: rgb(116, 133, 150);
+            color: white;
+            width: 10%;
+            margin: 10px;
+            text-align: center;
+            line-height: 75px;
+            font-size: 10px;
+          }
+
+          .flex-container1 {
+            background-image: url("../assets/imgs/945863297e8cb1c.jpg");
+            background-size: cover;
+            display: flex;
+            align-items: stretch;
+            height: 40vh;
+            width: 100%;
+            margin-top: 2%;
+          }
+      .flex-container2{
+        background-color: none;
+        display: flex;
+        align-items: stretch;
+        height: 50vh;
+        margin-top: -190px;
+        flex-direction: column;
+      }
+      .flex-container2> div{
+        background-color: rgb(102, 150, 201);
+        color: white;
+        width: 200px;
+        height: 30px;
+        margin: 10px;
+       margin-left: 60px;
+        line-height: 75px;
+        font-size: 10px;
+      } 
+      .flex-container2> .flex-box{
+        width:240px; height: 25vh; margin-left: 40px;
+        flex-direction: row;
+      }
+      .flex-contain{
+        background-color: rgb(126, 116, 116);
+        display: flex;
+        align-items: stretch;
+        height: 20vh;
+        flex-direction: row;
+      }
+.flex-contain>.flex2> .div1{
+    background-color: rgb(255, 255, 255);
+    color: white;
+    width: 35px;
+    height: 40px;
+    margin: 10px;
+    margin-top: 70px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 10px;
 }
+.flex-contain>.flex1> .div2{
+    background-color: rgb(255, 255, 255);
+    color: white;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 10px;
+}
+.flex1{
+    background-color: none;
+    display: flex;
+    align-items: stretch;
+    width: 99.99%;
+    height: 10vh;
+    flex-direction: row;
+}
+.flex2{
+    background-color: none;
+    display: flex;
+    align-items: stretch;
+    width: 99.99%;
+    height: 10vh;
+    margin-top: 10px;
+    flex-direction: row;
+}
+     
+      }
+    }
+
