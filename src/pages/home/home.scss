@@ -2,14 +2,16 @@
 page-home {
     ion-content{
         .flex-container{
-
+          display: flex;
+          flex-direction: column;
+          height: 80hv;
         }
         .flex-container0 {
             display: flex;
             align-items: stretch;
            background-color: rgb(189, 189, 189);
             background-size: cover;
-            height: 6vh;
+            height: 7vh;
           }
 
           .flex-container0> div {
@@ -50,7 +52,7 @@ page-home {
         align-items: stretch;
         //height: 50vh;
         margin: auto;
-        width: 90%;
+       // width: 90%;
     //border: 3px solid #73AD21;
         flex-direction: column;
         margin-top: auto;
@@ -58,15 +60,14 @@ page-home {
       }
 
       .flex-container2> div{
-        margin-top: -50px;
-        background-color: rgb(105, 105, 105);
-        color: white;
+        background-color: rgb(230, 230, 230);
+        color: rgb(0, 0, 0);
         //width: 200px;
        // height: 5%;
-        margin: 30px;
+        margin: 5px 0px 0px 0px;
        //margin: auto;
         line-height: 20px;
-        font-size: 10px;
+        font-size: 13px;
         flex: 1;
        padding: 10px;
 
@@ -129,6 +130,7 @@ page-home {
   display: flex;
   flex-wrap: wrap;
   background-color: DodgerBlue;
+  height: 5vh;
   //border-radius: 20px;
 }
 .gallery > div {
